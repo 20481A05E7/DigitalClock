@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+    position: relative;
+    top: 200px;
+    left: 40%;
+    background-color: rgba(211, 211, 211, 0.361);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    padding: 10px;
+}
+.displays{
+    margin: 20px;
+}
+#seconds_heading{
+    font-size: 500px;
+    z-index: -1;
+    position: absolute;
+    top: 20px;
+    left: 35%;
+}
